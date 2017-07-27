@@ -1,0 +1,39 @@
+h3{
+    font-size: 20px;
+}
+a:hover{
+    color: #ff8400;
+    text-decoration: none;
+}
+img{
+    
+    width: 100%;
+    transform: scale(1);
+    -webkit-transition: 2s; /* Safari */
+    transition: 2s;
+}
+
+.content{
+    text-align: justify;
+}
+
+.rm a{
+    background-image: url("/assets/images/more.png");
+    background-position: 0 2px;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: 10px;
+    padding-left: 18px;
+}
+.traineetext{
+    margin-bottom: 10px;
+}
+img:hover{
+    transform: scale(1.2);
+    -webkit-transition: 2s; /* Safari */
+    transition: 2s;
+}
+.img{
+    box-shadow: 0 2px 5px 2px #c7c7c7;
+    overflow: hidden;
+}

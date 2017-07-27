@@ -1,0 +1,154 @@
+/* You can add global styles to this file, and also import other style files */
+.body-sec {
+    margin-top: -19px;
+}
+
+h4{
+    margin-bottom: 1em;
+    font-weight: normal;
+    border-bottom: 1px solid #575757;
+    color: #efefef;
+    font-size: 1em;
+    font-weight: 300;
+    color: #333;
+    font-size: 1.846em;
+}
+
+h4 span {
+    display: inline-block;
+    margin-bottom: -1px;
+    padding: 8px 0;
+    border-bottom: 2px solid #15bad3;
+}
+
+p{
+    color: #747474;
+}
+
+strong{
+    color: #747474;
+}
+
+h1.alt span {
+    border-bottom: 2px solid #15bad3;
+    padding: 8px 0;
+}
+h1.alt {
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 1.846em;
+    font-weight: 300;
+    line-height: 1.2em;
+    padding: 0 0 8px;
+}
+h2{
+    font-size: 1.3em;
+}
+
+p{
+    text-align: justify;
+}
+
+.msg.success {
+    background-color: #eeffda;
+    background-image: url("assets/images/msg-success.png");
+    border-color: #cbe3b4;
+    color: #8ab04f;
+}
+.breadcrumb{
+    background-image: url("assets/images/pattern07.png");
+}
+.msg {
+    background-position: 13px 10px;
+    background-repeat: no-repeat;
+    border: 1px solid #dfdfdf;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.04) inset;
+    margin: 20px 0;
+    padding: 11px 10px 11px 45px;
+    text-align: unset;
+}
+
+.msg.info {
+    background-color: #e7f7ff;
+    background-image: url("assets/images/msg-info.png");
+    border-color: #c5dce7;
+    color: #4f9ec2;
+}
+.img-border::before {
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1) inset;
+    content: " ";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.img-border {
+    display: inline-block;
+    position: relative;
+}
+.img-border {
+    max-width: 100%;
+    width: auto;
+    margin-bottom: 10px;
+}
+article.post .img-border img {
+    max-width: 100%;
+}
+
+
+h2.alt {
+    border-bottom: 1px solid #c7c7c7;
+}
+h2.alt span {
+    border-bottom: 2px solid #15bad3;
+}
+h2.alt span {
+    border-bottom: 2px solid #15bad3;
+    display: inline-block;
+    margin-bottom: -1px;
+    padding: 10px 0;
+}
+a:hover {
+    color: #15bad3;
+}
+/* li {
+    margin: 0.5em 0 0.5em 2em;
+} */
+/* .postlist h2 {
+    border-bottom: 1px solid #dfdfdf;
+    font-weight: 300;
+    line-height: 1.2em;
+} */
+/* ul{
+    padding-left:0; 
+} */
+a {
+    color: #3f3f3f;
+    text-decoration: none;
+    transition: color 0.5s ease 0s;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+/* Responsive Css */
+@media screen and (max-width: 479px){
+ .top-right{display: none;}
+ h1.alt{font-size: 1.346em;}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px){  
+   .top-right{display: none;}
+   h1.alt{font-size: 1.346em;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1024px) {
+
+}

@@ -1,0 +1,130 @@
+.content > aside section {
+    margin: 1em 0 2em;
+}
+aside {
+    margin-top: 1em;
+    max-width: 300px;
+}
+aside h3 {
+    border-bottom: 1px solid #dfdfdf;
+    color: #3f3f3f;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+aside h3 span {
+    border-bottom: 2px solid #15bad3;
+    display: inline-block;
+    margin-bottom: -1px;
+    padding: 8px 0;
+}
+
+form p {
+    clear: both;
+    margin: 1.5em 0;
+}
+aside .widget_newsletter input {
+    font-size: 0.923em;
+    margin-right: 5px;
+    padding: 6px 3%;
+    vertical-align: middle;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+aside .widget_newsletter button {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    font-family: "Open Sans",sans-serif,arial;
+    height: 28px;
+    line-height: 15px;
+    padding: 0;
+    vertical-align: top;
+
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #2dcbde 0%, #0fabc8 100%) repeat scroll 0 0;
+    border-color: #28b2c2 #0fabc8 #0fabc8;
+    color: #fff;
+    text-shadow: 0 -1px 0 #1c9dae;
+}
+aside section.menu > ul {
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    font: 300 1.231em "Signika",sans-serif;
+    padding: 0;
+}
+aside section ul li {
+    color: #747474;
+    margin: 0;
+    overflow: hidden;
+}
+aside section.menu > ul li:first-child {
+    border-top: medium none;
+}
+aside section ul li::before {
+    color: #747474;
+    content: "â€”";
+    float: left;
+    margin-right: 7px;
+    overflow: hidden;
+    width: 7px;
+}
+aside section.menu > ul li {
+    border-top: 1px solid #e5e5e5;
+}
+aside section.menu > ul li::before {
+    display: none;
+}
+aside section.menu > ul li a {
+    display: block;
+    padding: 7px 20px 7px 10px;
+    font-size: 15px;
+}
+aside section.menu > ul li a:hover{
+    text-decoration: none;
+}
+aside a {
+    color: #3f3f3f;
+}
+aside section.menu > ul li a:hover {
+    background: #f5f5f5 none repeat scroll 0 0;
+    color: #3f3f3f;
+}
+
+.testimonial > div {
+    border-bottom: 1px solid #dfdfdf;
+    margin-bottom: 20px;
+    position: relative;
+}
+.testimonial > div > p:first-child {
+    background: rgba(0, 0, 0, 0) url("/assets/images/quotes.png") no-repeat scroll 0 0;
+    text-indent: 30px;
+}
+.testimonial > div > p {
+    font-family: "Open Sans",sans-serif,arial;
+    text-align: justify;
+}
+.testimonial > div > span {
+    background: rgba(0, 0, 0, 0) url("/assets/images/testimonial-tip.png") no-repeat scroll 0 0;
+    bottom: -14px;
+    display: block;
+    height: 14px;
+    left: 53px;
+    position: absolute;
+    width: 13px;
+}
+
+.testimonial > img {
+    float: left;
+    height: 40px;
+    margin-right: 13px;
+    width: 40px;
+}
+.testimonial > p span {
+    color: #999;
+    font-size: 0.846em;
+}
+.testimonial > p {
+    color: #3f3f3f;
+    line-height: 1.3em;
+    margin-top: 0;
+}

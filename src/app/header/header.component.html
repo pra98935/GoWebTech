@@ -1,0 +1,120 @@
+    <section class="top">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-left top-left">
+              <p>Call us: +91-8871 270 764 | E-mail: 
+              <a href="mailto:info@gowebtech.co.in" style="color:#fff;">info@gowebtech.co.in</a></p>
+            </div>
+
+            <div class="col-md-8 top-right">
+              <nav>
+                <ul>
+                  <li><a routerLink="angular" title="AngularJS Training in Indore | GoWebTech.co.in">AngularJS Training</a></li>
+                  <li><a routerLink="node" title="Node.js Training in Indore | GoWebTech.co.in">Node.js Training</a></li>
+                  <li><a routerLink="php" title="PHP Training in Indore | GoWebTech.co.in">PHP Training</a></li>
+                  <li><a routerLink="oracle-sql" title="Oracle PL/SQL Training in Indore | GoWebTech.co.in">Oracle PL/SQL Training</a></li>
+                  <li><a routerLink="magento" title="Magento Training in Indore | GoWebTech.co.in">Magento Training</a></li>
+                  <li><a routerLink="java" title="Java Training in Indore | GoWebTech.co.in">Java Training</a></li>
+                </ul>
+              </nav>
+            </div>
+
+        </div>  
+      </div>
+    </section>
+
+    <div class="navbar navbar-default">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="navbar-header">
+              <a href="../" class="navbar-brand">GoWebTech</a>
+              <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+              <!--<ul class="nav navbar-nav">
+                <li class="dropdown">
+                  <a  routerLink="" id="themes">Home</a>
+                </li>
+                <li>
+                  <a routerLink="about">About</a>
+                </li>
+                <li>
+                  <a routerLink="service">Service</a>
+                </li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Contact</a>
+                </li>
+              </ul>-->
+
+              <!-- <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <a  routerLink="" id="themes">Home</a>
+                </li>
+                <li>
+                  <a routerLink="about">Industrial Training</a>
+                </li>
+                <li>
+                  <a routerLink="about">Our Training</a>
+                </li>
+                <li>
+                  <a routerLink="service">Services</a>
+                </li>
+                <li class="dropdown">
+                      <a routerLink="service">Contact Us</a>
+                  </li>
+                </ul> -->
+
+                <ul class="dropdown nav navbar-nav navbar-right">
+                  <li class="menu"><a  routerLink="" id="themes">Home</a></li>
+                  <li class="menu"><a routerLink="industrial-training">Industrial Training</a></li>
+             
+                  <li class="dropbtn menu menu-parent">
+                    <a routerLink="#" (click)="toggleMenu()">Our Training</a>
+                    <ul class="dropdown-content menu-child" [@focusPanel]="state">
+                      <li><a routerLink="php">Core/Advance PHP</a></li>
+                      <li><a routerLink="oracle-sql">Oracle PL/SQL</a></li>
+                      <li><a routerLink="java">Core Java</a></li>
+                      <li><a routerLink="advance-java">Advance Java</a></li>
+                      <li><a routerLink="android">Android</a></li>
+                      <li><a routerLink="node">Node.js</a></li>
+                      <li><a routerLink="magento">Magento</a></li>
+                      <li><a routerLink="wordpress">Wordpress</a></li>
+                      <li><a routerLink="zend-framework">Zend Framework</a></li>
+                      <li><a routerLink="cake-php">Cake PHP</a></li>
+                      <li><a routerLink="codeigniter">CodeIgniter</a></li>
+                      <li><a routerLink="joomla">Joomla</a></li>
+                      <li><a routerLink="drupal">Drupal</a></li>
+                      <li><a routerLink="dotnet">C# .Net</a></li>
+                      <li><a routerLink="yii-framework">YII-Framework</a></li>
+                      <li><a routerLink="angular">Angular</a></li>      
+                    </ul>
+                  </li>
+
+                  <li class="dropbtn menu menu-parent">
+                    <a routerLink="#" (click)="toggleMenu1()">Services</a>
+                    <ul class="dropdown-content menu-child" [@focusPanel1]="state1">
+                      <li><a routerLink="web-development">Web Development</a></li>
+                      <li><a routerLink="web-promotion">Web Promotion</a></li>
+                      <li><a routerLink="ecommerce">eCommerce</a></li>
+                      
+                      <!-- <li><a href="#">Link 3</a></li> -->
+                    </ul>
+                  </li>
+
+                  <li class="menu"><a routerLink="contact">Contact Us</a></li>
+                </ul>
+
+
+            </div>
+          </div>                
+        </div>  
+      </div>
+    </div>
+
+
+    

@@ -1,0 +1,91 @@
+h3{
+    margin-bottom: 1em;
+    font-weight: normal;
+    border-bottom: 1px solid #575757;
+    color: #efefef;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+h3 span {
+    display: inline-block;
+    margin-bottom: -1px;
+    padding: 8px 0;
+    border-bottom: 1px solid #15bad3;
+}
+
+p{
+    font-size: 14px;
+    text-align: justify;
+    color: #aeaeae;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    color: white;
+}
+
+.ftr-outer {
+    background-image: url("http://gowebtech.co.in/images/footer.png");
+    padding: 25px 0;
+    color: #aeaeae;
+    padding: 25px 0 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #333;
+}
+
+.ftr-outer section.bottom {
+    overflow: hidden;
+    padding: 20px 0;
+    border-top: 1px solid #575757;
+    color: #999;
+    font-size: 0.923em;
+}
+section.bottom p {
+    float: left;
+    margin: 0 0 1em;
+    font-size: 0.917em;
+}
+.ftr-outer nav.social {
+    float: right;
+    margin: 0;
+}
+nav.social ul {
+    float: right;
+    overflow: hidden;
+    margin: 0;
+}
+nav.social ul li {
+    float: left;
+    margin-left: 8px;
+}
+.social ul li{
+    display: inline-block;
+    margin: 0 0 0 5px;
+    list-style: none;
+    width: 24px;
+    height: 24px;
+}
+.social ul li a{
+    display: inline-block;
+    overflow: hidden;
+    width: 24px;
+    height: 24px;
+    background: url("http://gowebtech.co.in/images/social.png");
+    text-indent: -500em;
+    opacity: 0.3;
+}
+.social a.facebook {
+    background-position: -32px -30px !important;
+}
+.social a.googleplus {
+    background-position: -384px -30px !important;
+}
+.social a.rss {
+    background-position: -128px -30px !important;
+}
+
+.social a.facebook:hover,
+.social a.googleplus:hover,
+.social a.rss:hover
+{opacity: 1 !important;}

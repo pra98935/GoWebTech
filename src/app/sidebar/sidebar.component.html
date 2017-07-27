@@ -1,0 +1,100 @@
+<aside class="pull-right">
+<script type="text/javascript">
+  function validateForm() {
+    var x = document.forms["myForm"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos&lt; 1 || dotpos&lt;atpos+2 || dotpos+2&gt;=x.length) {
+      alert("Enter a valid Email ID");
+      return false;
+    }
+  }
+</script>
+
+<section class="widget_newsletter">
+  <h3><span>Ask Your Questions Here..?</span></h3>
+  <form action="mailto.php" name="myForm" id="myForm" method="post" onsubmit="return validateForm()" class="contact-form">
+    <p>
+      <input name="name" placeholder="Your Name" class="name">
+      <br>
+      <span id="name_msg"></span> 
+    </p>
+
+    <p>
+      <input name="email" id="email_id" placeholder="Enter a valid email address" class="email_id" required="">
+      <br>
+      <span id="email_msg"></span> 
+    </p>
+    
+    <p>
+      <input name="phone" id="news_email2" placeholder="Your Phone" required="">
+    </p>
+
+    <p>
+      <input name="questions" id="news_email2" placeholder="Your Questions">
+    </p>
+
+    <p>
+      <button name="submit" type="submit" class="btn azure">&nbsp;Send&nbsp;</button>
+    </p>
+  </form>
+</section>
+       
+<section class="menu">
+  <h3 class="t01"><span>Our Training Programs</span></h3>
+  <ul style="list-style-type:square">
+    <li><a routerLink="/php" title="PHP Training in Indore | Shanu Sir">Core/Advance PHP</a></li>
+    <li><a routerLink="/oracle-sql" title="Oracle PL/SQL Training in Indore | GoWebTech.co.in">Oracle PL/SQL Training</a></li>
+    <li><a routerLink="/java" title="Java Training Indore">Core Java</a></li>
+    <li><a routerLink="/advance-java" title="Advance Java Training By shanu sir | GoWebTech.co.in">Advance Java</a></li>
+    <li><a routerLink="/android" title="Android Training Program in Indore">Android</a></li>
+    <li><a routerLink="/magento" title="Magento Training In Indore | GoWebTech.co.in">Magento</a></li>
+    <li><a routerLink="/wordpress" title="Learn Wordpress in Indore | GoWebTech.co.in">Wordpress</a></li>
+    <li><a routerLink="/node" title="Learn Node.js in Indore | GoWebTech.co.in">Node.js</a></li>
+    <li><a routerLink="/zend-framework" title="Zend FrameWork Training Indore | GoWebTech.co.in">Zend Framework</a></li>
+    <li><a routerLink="/cake-php" title="Cake PHP Training Indore | GoWebTech.co.in">Cake PHP</a></li>
+    <li><a routerLink="/codeigniter" title="CI Framework Intitute in Indore | GoWebTech.co.in">Codeigniter </a> </li>
+    <li><a routerLink="/joomla" title="Joomla Training Intitute in Indore | GoWebTech.co.in">Joomla</a></li>
+    <li><a routerLink="/drupal" title="Training in Drupal Indore | GoWebTech.co.in">Drupal</a></li>
+    <li><a routerLink="/dotnet" title="C# Training in Indore | GoWebTech.co.in">C#.Net</a></li>
+    <li><a routerLink="/yii-framework" title="YII Framework Training in Indore | GoWebTech.co.in">YII Framework</a></li>
+    <li><a routerLink="/angular">Angular</a></li>
+
+  </ul>
+</section>
+
+<section class="menu">
+  <h3 class="t01"><span>We Offer</span></h3>
+  <ul>
+    <li><a routerLink="/web-development" title="Web Development Services Indore">Web Development</a></li>
+    <li><a routerLink="/web-promotion" title="Web Promotion Services Indore">Web Promotion</a></li>
+    <li><a routerLink="/ecommerce" title="eCommerce Services By GoWebTech">eCommerce Design</a></li>
+    <li><a href="http://amuhost.com" target="_blank" title="Cheap Hosting Providers">Domain &amp; Hosting</a></li>
+  </ul>
+</section>
+
+<section>
+  <h3><span>Testimonial</span></h3>
+  <div class="testimonial">
+    <div>
+      <p>GoWebTech has a team of exceptional trainers who are able to not just deliver a training package but to inspire and challenge students.</p>
+      <span></span>
+    </div>
+    <img src="assets/images/avatar3.jpg" alt="">
+    <p>Rakesh Sharma<br><span>PHP Developer</span></p>
+  </div>
+</section>
+
+<section class="widget_newsletter">
+  <h3 class="t01"><span>Quick Contact</span></h3>
+  <p> <strong>GoWebTech</strong></p>
+  <p><strong>Contact:</strong>&nbsp; +91 8517 02 3230&nbsp;&nbsp;+91 8890 12 4089<br>
+  <strong>Address:</strong>&nbsp;2nd Floor,Radha Krishna Tower,<br>Geeta Bhavan,Indore 452001<br>
+  <strong>E-mail:</strong> <a href="mailto:info@gowebtech.co.in">info@gowebtech.co.in</a></p>
+</section>
+
+
+
+
+</aside>
+ 
